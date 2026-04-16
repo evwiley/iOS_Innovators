@@ -7,17 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B56C6A22F8E41BE00127B6A /* References : Assets File in Resources */ = {isa = PBXBuildFile; fileRef = 1B56C6A12F8E41BE00127B6A /* References : Assets File */; };
 		44E383FB2F5A2B5A00061D5D /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = 44E383FA2F5A2B5A00061D5D /* Auth */; };
 		44E383FD2F5A2B5A00061D5D /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = 44E383FC2F5A2B5A00061D5D /* Functions */; };
 		44E383FF2F5A2B5A00061D5D /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = 44E383FE2F5A2B5A00061D5D /* PostgREST */; };
 		44E384012F5A2B5A00061D5D /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = 44E384002F5A2B5A00061D5D /* Realtime */; };
 		44E384032F5A2B5A00061D5D /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = 44E384022F5A2B5A00061D5D /* Storage */; };
 		44E384052F5A2B5A00061D5D /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = 44E384042F5A2B5A00061D5D /* Supabase */; };
+		A9C538982F8C944A00BBF4EB /* UserGuide.pdf in Resources */ = {isa = PBXBuildFile; fileRef = A9C538972F8C944A00BBF4EB /* UserGuide.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04848E952F50C83E008C7C96 /* Momentum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Momentum.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		04E4D8D12F9152D900395E49 /* Momentum.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Momentum.xcodeproj; sourceTree = "<group>"; };
+		1B56C6A12F8E41BE00127B6A /* References : Assets File */ = {isa = PBXFileReference; lastKnownFileType = text; path = "References : Assets File"; sourceTree = "<group>"; };
+		A9C538972F8C944A00BBF4EB /* UserGuide.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = UserGuide.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -50,6 +53,8 @@
 			children = (
 				04848E972F50C83E008C7C96 /* Momentum */,
 				04848E962F50C83E008C7C96 /* Products */,
+				A9C538972F8C944A00BBF4EB /* UserGuide.pdf */,
+				1B56C6A12F8E41BE00127B6A /* References : Assets File */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,13 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				04848E952F50C83E008C7C96 /* Momentum.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		04E4D90A2F91551100395E49 /* Products */ = {
-			isa = PBXGroup;
-			children = (
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,12 +127,6 @@
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 04848E962F50C83E008C7C96 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 04E4D90A2F91551100395E49 /* Products */;
-					ProjectRef = 04E4D8D12F9152D900395E49 /* Momentum.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				04848E942F50C83E008C7C96 /* Momentum */,
@@ -147,6 +139,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C538982F8C944A00BBF4EB /* UserGuide.pdf in Resources */,
+				1B56C6A22F8E41BE00127B6A /* References : Assets File in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
